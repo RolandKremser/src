@@ -1,0 +1,170 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AU_Import",
+            "request": "launch",
+            "mainClass": "AU_Import",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "AU_AServer2012",
+            "request": "launch",
+            "mainClass": "All_Unlimited.AU_AServer2012",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "AU_Terminal",
+            "request": "launch",
+            "mainClass": "All_Unlimited.AU_Terminal",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "AU_Timer",
+            "request": "launch",
+            "mainClass": "All_Unlimited.AU_Timer",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "AU_Update",
+            "request": "launch",
+            "mainClass": "All_Unlimited.AU_Update",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "Run2",
+            "request": "launch",
+            "mainClass": "All_Unlimited.Run2",
+            "projectName": "src_c2d17a8b",
+            "args": "Connection=.my8:192.168.1.3/appl_v18 Titel=Appl18 Temp=c:\\tmp\\appl_v18/ Web=http://192.168.1.110:8080/ Option=x--++T+---++++A-a+-f+++SA+---x+++ QryAb=5000 WebServer=http://192.168.1.144:9090/ALL/UNLIMITED AServer=192.168.1.144:4444"
+        },
+        {
+            "type": "java",
+            "name": "Exectest",
+            "request": "launch",
+            "mainClass": "Exectest",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "FileCopy",
+            "request": "launch",
+            "mainClass": "FileCopy",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "KillAA",
+            "request": "launch",
+            "mainClass": "KillAA",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "StartAll",
+            "request": "launch",
+            "mainClass": "StartAll",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "StartISQL",
+            "request": "launch",
+            "mainClass": "StartISQL",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "StartStop",
+            "request": "launch",
+            "mainClass": "StartStop",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "Sybase_To_Oracle",
+            "request": "launch",
+            "mainClass": "Sybase_To_Oracle",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "CrunchifyClient",
+            "request": "launch",
+            "mainClass": "Test.CrunchifyClient",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "HS",
+            "request": "launch",
+            "mainClass": "Test.HS",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "TableCellOverflow",
+            "request": "launch",
+            "mainClass": "Test.TableCellOverflow",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "ViewsRebuild",
+            "request": "launch",
+            "mainClass": "ViewsRebuild",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "Wunsch",
+            "request": "launch",
+            "mainClass": "Wunsch",
+            "projectName": "src_c2d17a8b",
+            "args": ".my8:127.0.0.1/appl_v18 /tmp/GPS2.csv 17 3504"
+        },
+        {
+            "type": "java",
+            "name": "JCVersion",
+            "request": "launch",
+            "mainClass": "jclass.bwt.JCVersion",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "JCVersion(1)",
+            "request": "launch",
+            "mainClass": "jclass.field.JCVersion",
+            "projectName": "src_c2d17a8b"
+        },
+        {
+            "type": "java",
+            "name": "JCTVersion",
+            "request": "launch",
+            "mainClass": "jclass.table3.JCTVersion",
+            "projectName": "src_c2d17a8b"
+        }
+    ]
+}

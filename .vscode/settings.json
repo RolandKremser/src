@@ -1,0 +1,15 @@
+{
+    "java.home": "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\DVH\\VSC\\jar\\mysql-connector-java-8.0.11.jar",
+            "c:\\DVH\\VSC\\jar\\org.json-chargebee-1.0.jar",
+            "c:\\DVH\\VSC\\jar\\AllA.jar",
+            "c:\\DVH\\VSC\\jar\\JMapViewer.jar"
+        ],
+        "exclude": [
+            "c:\\DVH\\VSC\\jar\\AllMS.jar"
+        ]
+    }
+}
